@@ -6,10 +6,15 @@
 
 ### Use the package
 - Inside the src folder of your workspace, clone this repository
-- Clone the Hector Quadrotor package --> https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
+- Clone the Hector Quadrotor package
+    ```bash
+    https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
+    ```
 - Make the scripts and the launch files executable by running the following commands inside the drone_race package
---- chmod +x src/scripts/*
---- chmod +x launch/*
+  ```bash
+  chmod +x src/scripts/*
+  chmod +x launch/*
+  ```
 
 ### Playing the game
 - Navigate to drone_race/launch
