@@ -7,7 +7,7 @@
 ### Use the package
 - Inside the src folder of your workspace, clone this repository
 - Clone the Hector Quadrotor package
-    ```bash
+    ```
     https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
     ```
 - Make the scripts and the launch files executable by running the following commands inside the drone_race package
@@ -26,4 +26,10 @@
 - To play using a **keyboard**:
   ```bash
   ./launch_tmux.sh player_name --keyboard
+  ```
+### After the game
+- Press Ctrl+C in the terminal
+- In the tmux window, run the following command
+  ```bash
+    tmux kill-session -t drone_race
   ```
