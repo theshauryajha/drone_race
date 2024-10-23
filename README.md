@@ -7,9 +7,8 @@
 ### Use the package
 - Inside the src folder of your workspace, clone this repository
 - Clone the Hector Quadrotor package
-    ```
     https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
-    ```
+    
 - Make the scripts and the launch files executable by running the following commands inside the drone_race package
   ```bash
   chmod +x src/scripts/*
@@ -31,5 +30,5 @@
 - Press Ctrl+C in the terminal
 - In the tmux window, run the following command
   ```bash
-    tmux kill-session -t drone_race
+  tmux kill-session -t drone_race
   ```
